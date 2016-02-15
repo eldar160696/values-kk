@@ -24,7 +24,7 @@
     <string name="menu_bookmarks_ayah">Аят белгілері</string>
     <string name="menu_sort">Сұрыптау</string>
     <string name="menu_sort_date">Қосылған күні бойынша</string>
-    <string name="menu_sort_location">Құрандағы орны бойынша</string>
+    <string name="menu_sort_location">Құрандағы реті бойынша</string>
     <string name="menu_sort_group_by_tags">Тэгтер бойынша топтау</string>
     <string name="menu_translation">Аудармалар</string>
     <string name="menu_back_to_page">Құран</string>
@@ -37,7 +37,7 @@
 
     <!-- about -->
     <string name="about_description">Quran for Android - тегін Құран бағдарламасы.
-        Бағдарлама жасаушыларғы дұға жасауды ұмытпаңыз;)</string>
+        Осы бағдарламаны жасаушыларға дұға жасауды ұмытпаңыз;)</string>
     <string name="about_data_sources">Деректер көзі</string>
     <string name="about_images">Суреттер</string>
     <string name="about_madani_images">Құран суреттері King Fahd Quran Printing Complex шрифттері бойынша жасалынды</string>
@@ -64,73 +64,69 @@
         Ойнату батырмасын басып ашық тұрған бетті немесе сүрені тыңдауға болады.
         &lt;br/>
         &lt;br/>&lt;b>Аудармаларды қалай көруге болады?&lt;/b>
-        &lt;br/>Құран бетін ашып экранды бір рет басыңыз. Экранның жоғарғы жағынан 
-        глобус суретін көресіз. Глобусты басып аудармасын көре аласыз.
+        &lt;br/>Құран бетін ашып экранды бір рет басыңыз. 
+        Экранның жоғарғы жағынан глобус суретін көресіз. 
+        Глобусты басып аудармасын көре аласыз.
         &lt;br/>
         Егер бұрын жүктелген аудармалар болмаса, аудармалар жүктеу беті ашылады.
         Керекті аударманы жүктеп кері қайтыңыз. Қайта глобусты басып аударманы көре аласыз.
         &lt;br/>
-        &lt;br/>&lt;b>Как мне сделать закладку страницы?&lt;/b>
-        &lt;br/>Откройте страницу Корана. Один раз дотроньтесь до экрана. Наверху справа Вы увидите 
-        иконку закладки. Для создания закладки нажмите на данную иконку (она закрасится белым цветом).
-        Для удаления закладки снова нажмите на иконку закладки.
+        &lt;br/>&lt;b>Бетке қалай белгі қоюға болады?&lt;/b>
+        &lt;br/>Құран бетін ашып экранды бір рет басыңыз. 
+        Экранның жоғарғы оң жағынан белгі суретін көресіз. Белгі қою үшін соны басыңыз 
+        (сурет ақ түске боялады). Белгіні жою үшін батырманы қайта басыңыз.
         &lt;br/>
-        &lt;br/>&lt;b>Как мне увеличить текст?&lt;/b>
-        &lt;br/>Для арабского текста - держите Ваш телефон в альбомном режиме (горизонтально). Это сделает текст крупнее. 
-        Для переводов - перейдите в настройки и выберите размер шрифта перевода.
+        &lt;br/>&lt;b>Мәтінді қалай үлкейтуге болады?&lt;/b>
+        &lt;br/>Арабша мәтінді үлкейту үшін құрылғыны көлденеңінен ұстаңыз (альбом режимі).
+        Аударма мәтінін үлкейту үшін баптаулардан шрифт өлшемін таңдаңыз.
         &lt;br/>
-        &lt;br/>&lt;b> Как я могу поделиться аятом?&lt;/b>
-        &lt;br/>Во время нахождения на любой арабской странице Корана, нажмите и удерживайте на аяте до того,
-        как появится контекстное меню, где Вы сможете сделать закладку данного аята, поделиться им, посмотреть перевод
-        или скопировать аят в буфер обмена.
+        &lt;br/>&lt;b>Басқа адамдармен аятты қалай бөлісуге болады?&lt;/b>
+        &lt;br/>Құран бетін ашып арабша аяттың үстінен басып тұрыңыз.
+        Ашылған мәзір арқылы аятқа белгі қоюға, бөлісуге, аудармасын көруге,
+        көшіруге және қырағатын тыңдауға болады.
         &lt;br/>
-        &lt;br/>&lt;b>Malayalam/Tamil/Bengali/Urdu шрифты не работают!&lt;/b>
-        &lt;br/>К сожалению, Android версии до 4.0 не поддерживают эти шрифты, и мы ничего не можем сделать,
-        чтобы как-то помочь Вам в этом вопросе.
+        &lt;br/>&lt;b>Malayalam/Tamil/Bengali/Urdu шрифттері істемейді!&lt;/b>
+        &lt;br/>Өкінішке орай Android 4.0-тен төменгі нұсқалар бұл шрифттерді қолдамайды.
     </string>
-    <string name="search_hint">Поиск по Корану</string>
-    <string name="quranSearchType">Стихи Корана</string>
+    <string name="search_hint">Іздеу</string>
+    <string name="quranSearchType">Сүрелер</string>
 
     <plurals name="files_downloaded">
-        <item quantity="one">Загружено %1$d сура</item>
-        <item quantity="few">Загружено %1$d суры</item>
-        <item quantity="many">Загружено %1$d сур</item>
-        <item quantity="other">Загружено %1$d сур</item>
+        <item quantity="one">1 сүре жазылды</item>
+        <item quantity="other">%1$d сүре жазылды</item>
     </plurals>
 
     <!-- Shown above search results when we receive a search request. -->
     <plurals name="search_results">
-        <item quantity="one">%2$d результат для \"%1$s\": </item>
-        <item quantity="few">%2$d результата для \"%1$s\": </item>
-        <item quantity="many">%2$d результатов для \"%1$s\": </item>
-        <item quantity="other">%2$d результатов для \"%1$s\": </item>
+        <item quantity="one">\"%1$s\" бойынша 1 нәтиже: </item>
+        <item quantity="other">\"%1$s\" бойынша %2$d нәтиже: </item>
     </plurals>
 
     <!-- m permissions stuff -->
-    <string name="storage_permission_rationale">Коран хочет вашего разрешения, чтобы сохранить свои
-        данные на внешнем хранилище. Коран будет работать без этого разрешения, но если вы будете
-        стереть данные или удалить приложение, то все загруженные страницы, аудио и другие данные
-        будут удалены. Дать Корану разрешение?
+    <string name="storage_permission_rationale">Құран деректерін сыртқы қоймаға сақтау үшін
+        рұқсат сұралуда. Құран бағдарламасы рұқсат берілмесе де істей береді, бірақ бағдарлама
+        жойылғанда немесе деректер тазартылғанда жүктелген беттер, аудиолар және басқа да мәліметтер
+        бірге жойылып кетеді. Сыртқы қоймаға сақтауға рұқсат бересіз бе?
     </string>
-    <string name="storage_permission_please_restart">Пожалуйста, перезапустите приложение, чтобы
-        изменения вступили в силу.
+    <string name="storage_permission_please_restart">Өзгерістер күшіне ену үшін
+        бағдарламаны қайта қосу керек.
     </string>
 
     <!-- Search messages -->
-    <string name="found_in_sura">Найдено в суре</string>
-    <string name="no_results">Результатов для \"%s\" не найдено</string>
-    <string name="no_active_translation">Вы не выбрали активный перевод. Сначала выберите активный
-        перевод и воспользуйтесь поиском снова.
+    <string name="found_in_sura">Сүреде табылды</string>
+    <string name="no_results">\"%s\" бойынша нәтиже табылмады</string>
+    <string name="no_active_translation">Белсенді аударма таңдалмаған.
+    Алдымен белсенді аударма таңдап қайта іздеп көріңіз.
     </string>
-    <string name="translation_settings">Настройки перевода</string>
-    <string name="no_arabic_search_available">Вы не скачали пакет данных для арабского поиска.
-        Пожалуйста, сначала скачайте его и воспользуйтесь поиском снова.
+    <string name="translation_settings">Аударма баптаулары</string>
+    <string name="no_arabic_search_available">Арабша іздеу деректері орнатылмаған.
+        Алдымен оны жүктеңіз. Кейін қайта іздеп көріңіз.
     </string>
-    <string name="get_arabic_search_db">Скачать данные для арабского поиска</string>
+    <string name="get_arabic_search_db">Арабша іздеу деректерін орнату</string>
 
     <!-- Quran Preference Activity -->
-    <string name="prefs_category_navigation">Перемещение</string>
-    <string name="prefs_volume_key_navigation_title">Переход клавишами громкости</string>
+    <string name="prefs_category_navigation">Ауыстыру</string>
+    <string name="prefs_volume_key_navigation_title">Дауыс пернелерін пайдалану</string>
     <string name="prefs_volume_key_navigation_summary">Листать страницы с помощью кнопок громкости звука</string>
     <string name="prefs_category_reading">Настройки чтения</string>
     <string name="prefs_category_translation">Настройки перевода</string>
